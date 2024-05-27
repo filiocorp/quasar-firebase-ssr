@@ -1,0 +1,29 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "test",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.16.11",
+    "quasar": "2.16.4",
+    "vue": "3.4.27",
+    "vue-router": "4.3.2",
+    "firebase-tools": "13.10.1",
+    "firebase-functions": "^5.0.1",
+    "express": "^4.17.3",
+    "compression": "^1.7.4",
+    "serialize-javascript": "^6.0.0"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "quasar": {
+    "ssr": true
+  }
+}
